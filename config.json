@@ -1,8 +1,10 @@
 {
   "source": ["tokens/**/*.json"],
+  "preprocessors": ['tokens-studio'], // <-- since 0.16.0 this must be explicit
   "platforms": {
     "css": {
-      "transformGroup": "css",
+      "transformGroup": "token-studio",
+      "transfor": ['name/kebab'],
       "files": [
         {
           "destination": "css/variables.css",
