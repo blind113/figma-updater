@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lru-cache": "^11.0.2",
+    "style-dictionary": "^4.3.3"
+  }
+}
