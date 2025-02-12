@@ -3,7 +3,7 @@
   "preprocessors": ['tokens-studio'], // <-- since 0.16.0 this must be explicit
   "platforms": {
     "css": {
-      "transformGroup": "token-studio",
+      "transformGroup": "tokens-studio",
       "transfor": ['name/kebab'],
       "files": [
         {
