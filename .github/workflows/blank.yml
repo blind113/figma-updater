@@ -13,6 +13,7 @@ jobs:
       - run: npx token-transformer tokens.json tokens/input.json
       # Convert tokens according to Style Dictionary config
       - run: npm install style-dictionary --save
+      - run: npm install lru-cache
       - run: npx style-dictionary build --config config.json
 
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
