@@ -3,7 +3,7 @@
   "preprocessors": ["tokens-studio"],
   "platforms": {
     "css": {
-      "transformGroup": "tokens-studio",
+      "transformGroup": "css",
       "transforms": ["name/kebab"],
       "files": [
         {
