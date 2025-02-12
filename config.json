@@ -1,9 +1,10 @@
 {
   "source": ["tokens/**/*.json"],
+  "preprocessors": ["tokens-studio"],
   "platforms": {
     "css": {
-      "transformGroup": "css",
-      "transform": ['name/kebab'],
+      "transformGroup": "tokens-studio",
+      "transforms": ["name/kebab"],
       "files": [
         {
           "destination": "css/variables.css",
