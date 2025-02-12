@@ -1,6 +1,7 @@
 {
   "source": ["tokens/**/*.json"],
   "preprocessors": ["tokens-studio"],
+  "excludeParentKeys": true,
   "platforms": {
     "css": {
       "transformGroup": "css",
