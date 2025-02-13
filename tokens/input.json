@@ -1,9 +1,5 @@
 {
   "green": {
-    "25": {
-      "value": "#f6fef9",
-      "type": "color"
-    },
     "50": {
       "value": "#ecfdf3",
       "type": "color"
