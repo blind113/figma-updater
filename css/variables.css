@@ -166,6 +166,7 @@
   --font-weight-semibold: 600;
   --font-weight-bold: 800;
   --font-weight-thin: 200;
+  --size-200: 200;
   --token-set-order-0: core;
   --token-set-order-1: system;
 }
