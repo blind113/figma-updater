@@ -158,6 +158,76 @@
                 }
               }
             }
+          },
+          "link": {
+            "default": {
+              "foreground": {
+                "default": {
+                  "value": "#004EEB",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "#0040C1",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#00359E",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#66708580",
+                  "type": "color"
+                },
+                "visited": {
+                  "default": {
+                    "value": "#9F1AB1",
+                    "type": "color"
+                  },
+                  "hovered": {
+                    "value": "#821890",
+                    "type": "color"
+                  },
+                  "pressed": {
+                    "value": "#6F1877",
+                    "type": "color"
+                  }
+                }
+              }
+            },
+            "black": {
+              "foreground": {
+                "default": {
+                  "value": "#344054",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "#182230",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#101828",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#66708580",
+                  "type": "color"
+                },
+                "visited": {
+                  "default": {
+                    "value": "#9F1AB1",
+                    "type": "color"
+                  },
+                  "hovered": {
+                    "value": "#821890",
+                    "type": "color"
+                  },
+                  "pressed": {
+                    "value": "#6F1877",
+                    "type": "color"
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -370,20 +440,32 @@
           "type": "color",
           "description": "Utilizado em links em estado padrão ou hover. Quando o link está hovered uma underline é adicionada."
         },
-        "pressed": {
+        "hovered": {
           "value": "#0040C1",
+          "type": "color",
+          "description": "Utilizado em links em estado padrão ou hover. Quando o link está hovered uma underline é adicionada."
+        },
+        "pressed": {
+          "value": "#00359E",
           "type": "color",
           "description": "Utilizado em links pressionados."
         },
         "visited": {
-          "value": "#821890",
-          "type": "color",
-          "description": "Utilizado em links visitados."
-        },
-        "visited-pressed": {
-          "value": "#6F1877",
-          "type": "color",
-          "description": "Utilizado em links visitados e pressionados."
+          "default": {
+            "value": "#9F1AB1",
+            "type": "color",
+            "description": "Utilizado em links visitados."
+          },
+          "hovered": {
+            "value": "#821890",
+            "type": "color",
+            "description": "Utilizado em links visitados."
+          },
+          "pressed": {
+            "value": "#6F1877",
+            "type": "color",
+            "description": "Utilizado em links visitados e pressionados."
+          }
         }
       },
       "background": {
