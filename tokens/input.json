@@ -135,7 +135,7 @@
               },
               "foreground": {
                 "default": {
-                  "value": "#912018",
+                  "value": "#d92d20",
                   "type": "color"
                 },
                 "disabled": {
@@ -227,6 +227,148 @@
                   }
                 }
               }
+            },
+            "danger": {
+              "foreground": {
+                "default": {
+                  "value": "#d92d20",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "#B42318",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#912018",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#66708580",
+                  "type": "color"
+                },
+                "visited": {
+                  "default": {
+                    "value": "#9F1AB1",
+                    "type": "color"
+                  },
+                  "hovered": {
+                    "value": "#821890",
+                    "type": "color"
+                  },
+                  "pressed": {
+                    "value": "#6F1877",
+                    "type": "color"
+                  }
+                }
+              }
+            }
+          },
+          "filled": {
+            "primary": {
+              "background": {
+                "default": {
+                  "value": "#CFF9FE",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "#A5F0FC",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#67e3f9",
+                  "type": "color"
+                }
+              },
+              "foreground": {
+                "default": {
+                  "value": "#182230",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#66708580",
+                  "type": "color"
+                }
+              }
+            },
+            "danger": {
+              "background": {
+                "default": {
+                  "value": "#FEE4E2",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "#FECDCA",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#fca19a",
+                  "type": "color"
+                }
+              },
+              "foreground": {
+                "default": {
+                  "value": "#d92d20",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#66708580",
+                  "type": "color"
+                }
+              }
+            }
+          },
+          "text": {
+            "primary": {
+              "background": {
+                "default": {
+                  "value": "#ffffff00",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "#cff9fe80",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#a5f0fc80",
+                  "type": "color"
+                }
+              },
+              "foreground": {
+                "default": {
+                  "value": "#182230",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#66708580",
+                  "type": "color"
+                }
+              }
+            },
+            "danger": {
+              "background": {
+                "default": {
+                  "value": "#ffffff00",
+                  "type": "color"
+                },
+                "hovered": {
+                  "value": "#fee4e280",
+                  "type": "color"
+                },
+                "pressed": {
+                  "value": "#fecdca80",
+                  "type": "color"
+                }
+              },
+              "foreground": {
+                "default": {
+                  "value": "#FCFCFD",
+                  "type": "color"
+                },
+                "disabled": {
+                  "value": "#66708580",
+                  "type": "color"
+                }
+              }
             }
           }
         }
@@ -285,9 +427,21 @@
     "color": {
       "foreground": {
         "danger": {
-          "value": "#912018",
-          "type": "color",
-          "description": "Utilizado em textos críticos como mensagens de erro em input fields."
+          "default": {
+            "value": "#d92d20",
+            "type": "color",
+            "description": "Utilizado em textos críticos como mensagens de erro em input fields."
+          },
+          "hovered": {
+            "value": "#B42318",
+            "type": "color",
+            "description": "Utilizado em textos críticos como mensagens de erro em input fields."
+          },
+          "pressed": {
+            "value": "#912018",
+            "type": "color",
+            "description": "Utilizado em textos críticos como mensagens de erro em input fields."
+          }
         },
         "success": {
           "value": "#085d3a",
@@ -555,7 +709,7 @@
               "type": "color"
             },
             "pressed": {
-              "value": "#FDA29B",
+              "value": "#fca19a",
               "type": "color"
             }
           },
@@ -1224,6 +1378,10 @@
           "value": "#A5F0FC",
           "type": "color"
         },
+        "300": {
+          "value": "#67e3f9",
+          "type": "color"
+        },
         "400": {
           "value": "#22CCEE",
           "type": "color"
@@ -1357,7 +1515,7 @@
           "type": "color"
         },
         "300": {
-          "value": "#FDA29B",
+          "value": "#fca19a",
           "type": "color"
         },
         "400": {
@@ -1394,6 +1552,10 @@
         },
         "200A": {
           "value": "#fecdca80",
+          "type": "color"
+        },
+        "300A": {
+          "value": "#fca19a80",
           "type": "color"
         },
         "600A": {
