@@ -830,11 +830,11 @@
         },
         "elevation": {
           "surface": {
-            "default": {
-              "value": "#FCFCFD",
+            "sunken": {
+              "value": "#EAECF0",
               "type": "color"
             },
-            "overlay": {
+            "default": {
               "value": "#FCFCFD",
               "type": "color"
             },
@@ -842,8 +842,8 @@
               "value": "#FCFCFD",
               "type": "color"
             },
-            "sunken": {
-              "value": "#EAECF0",
+            "overlay": {
+              "value": "#FCFCFD",
               "type": "color"
             }
           }
@@ -956,128 +956,346 @@
     "typography": {
       "body": {
         "large": {
-          "value": {
-            "fontFamily": "Inter",
-            "fontWeight": 500,
-            "fontSize": 16,
-            "lineHeight": "130%",
-            "letterSpacing": "auto",
-            "textDecoration": "none",
-            "paragraphSpacing": 0.5
+          "regular": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 16,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.5
+            },
+            "type": "typography",
+            "description": "Para textos longos como em páginas de blog."
           },
-          "type": "typography",
-          "description": "Para textos longos como em páginas de blog."
+          "medium": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 500,
+              "fontSize": 16,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.5
+            },
+            "type": "typography",
+            "description": "Para textos longos como em páginas de blog."
+          },
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 16,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.5
+            },
+            "type": "typography",
+            "description": "Para textos longos como em páginas de blog."
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 700,
+              "fontSize": 16,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.5
+            },
+            "type": "typography",
+            "description": "Para textos longos como em páginas de blog."
+          }
         },
         "medium": {
-          "value": {
-            "fontFamily": "Inter",
-            "fontWeight": 500,
-            "fontSize": 14,
-            "lineHeight": "130%",
-            "letterSpacing": "auto",
-            "textDecoration": "none",
-            "paragraphSpacing": 0.25
+          "regular": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 14,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.25
+            },
+            "type": "typography",
+            "description": "Utilizado em descrições pequenas e label. É o tamanho padrão de texto em componentes."
           },
-          "type": "typography",
-          "description": "Utilizado em descrições pequenas e label. É o tamanho padrão de texto em componentes."
+          "medium": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 500,
+              "fontSize": 14,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.25
+            },
+            "type": "typography",
+            "description": "Utilizado em descrições pequenas e label. É o tamanho padrão de texto em componentes."
+          },
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 14,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.25
+            },
+            "type": "typography",
+            "description": "Utilizado em descrições pequenas e label. É o tamanho padrão de texto em componentes."
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 700,
+              "fontSize": 14,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.25
+            },
+            "type": "typography",
+            "description": "Utilizado em descrições pequenas e label. É o tamanho padrão de texto em componentes."
+          }
         },
         "small": {
-          "value": {
-            "fontFamily": "Inter",
-            "fontWeight": 500,
-            "fontSize": 12,
-            "lineHeight": "130%",
-            "letterSpacing": "auto",
-            "textDecoration": "none",
-            "paragraphSpacing": 0.25
+          "regular": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 400,
+              "fontSize": 12,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.25
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "medium": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 500,
+              "fontSize": 12,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.25
+            },
+            "type": "typography"
+          },
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 12,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.25
+            },
+            "type": "typography"
+          },
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 700,
+              "fontSize": 12,
+              "lineHeight": "150%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0.25
+            },
+            "type": "typography"
+          }
         }
       },
       "heading": {
         "2xlarge": {
-          "value": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 32,
-            "lineHeight": "100%",
-            "letterSpacing": "auto",
-            "textDecoration": "none",
-            "paragraphSpacing": 0
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 32,
+              "lineHeight": "100%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 700,
+              "fontSize": 32,
+              "lineHeight": "100%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
+          }
         },
         "xlarge": {
-          "value": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 28,
-            "lineHeight": "100%",
-            "letterSpacing": "auto",
-            "textDecoration": "none",
-            "paragraphSpacing": 0
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 28,
+              "lineHeight": "100%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 700,
+              "fontSize": 28,
+              "lineHeight": "100%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
+          }
         },
         "large": {
-          "value": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 24,
-            "lineHeight": "110%",
-            "letterSpacing": "auto",
-            "textDecoration": "none",
-            "paragraphSpacing": 0
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 24,
+              "lineHeight": "110%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 700,
+              "fontSize": 24,
+              "lineHeight": "110%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
+          }
         },
         "medium": {
-          "value": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 20,
-            "lineHeight": "110%",
-            "letterSpacing": "auto",
-            "textDecoration": "none",
-            "paragraphSpacing": 0
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 20,
+              "lineHeight": "110%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 700,
+              "fontSize": 20,
+              "lineHeight": "110%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
+          }
         },
         "small": {
-          "value": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 16,
-            "lineHeight": "110%",
-            "letterSpacing": "auto",
-            "textDecoration": "none",
-            "paragraphSpacing": 0
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 16,
+              "lineHeight": "110%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 700,
+              "fontSize": 16,
+              "lineHeight": "110%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
+          }
         },
         "xsmall": {
-          "value": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 14,
-            "lineHeight": "130%",
-            "letterSpacing": "auto",
-            "textDecoration": "none",
-            "paragraphSpacing": 0
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 14,
+              "lineHeight": "130%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 700,
+              "fontSize": 14,
+              "lineHeight": "130%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
+          }
         },
         "2xsmall": {
-          "value": {
-            "fontFamily": "Inter",
-            "fontWeight": 600,
-            "fontSize": 12,
-            "lineHeight": "130%",
-            "letterSpacing": "auto",
-            "textDecoration": "none",
-            "paragraphSpacing": 0
+          "semibold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 600,
+              "fontSize": 12,
+              "lineHeight": "130%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
           },
-          "type": "typography"
+          "bold": {
+            "value": {
+              "fontFamily": "Inter",
+              "fontWeight": 700,
+              "fontSize": 12,
+              "lineHeight": "130%",
+              "letterSpacing": "auto",
+              "textDecoration": "none",
+              "paragraphSpacing": 0
+            },
+            "type": "typography"
+          }
         }
       }
     },
@@ -2202,9 +2420,9 @@
       "raised": {
         "value": {
           "x": 0,
-          "y": 2,
-          "blur": 6,
-          "spread": 2,
+          "y": 4,
+          "blur": 4,
+          "spread": 1,
           "color": "#05009b26",
           "type": "dropShadow"
         },
@@ -2216,7 +2434,7 @@
           "y": 8,
           "blur": 12,
           "spread": -3,
-          "color": "#05009b26",
+          "color": "#05009b40",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -2276,7 +2494,7 @@
     },
     "font-weight": {
       "regular": {
-        "value": 300,
+        "value": 400,
         "type": "fontWeights",
         "description": "Utilizado como peso padrão de textos."
       },
@@ -2291,7 +2509,7 @@
         "description": "Utilizado em títulos."
       },
       "bold": {
-        "value": 800,
+        "value": 700,
         "type": "fontWeights",
         "description": "Utilizado para enfatizar textos."
       }
