@@ -1,428 +1,4 @@
 {
-  "comp": {
-    "color": {
-      "selectable": {
-        "button": {
-          "solid": {
-            "primary": {
-              "background": {
-                "default": {
-                  "value": "#22CCEE",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#06AED4",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#088AB2",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#d0d5dd80",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#182230",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            },
-            "danger": {
-              "background": {
-                "default": {
-                  "value": "#B42318",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#912018",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#7A271A",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#d0d5dd80",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#FCFCFD",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            }
-          },
-          "outlined": {
-            "primary": {
-              "border": {
-                "default": {
-                  "value": "#22CCEE",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#06AED4",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#088AB2",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#eaecf080",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#155B75",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              },
-              "background": {
-                "default": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#cff9fe80",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#a5f0fc80",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                }
-              }
-            },
-            "danger": {
-              "background": {
-                "default": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#fee4e280",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#fecdca80",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#d92d20",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              },
-              "border": {
-                "default": {
-                  "value": "#B42318",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#912018",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#7A271A",
-                  "type": "color"
-                }
-              }
-            }
-          },
-          "link": {
-            "default": {
-              "foreground": {
-                "default": {
-                  "value": "#004EEB",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#0040C1",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#00359E",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                },
-                "visited": {
-                  "default": {
-                    "value": "#9F1AB1",
-                    "type": "color"
-                  },
-                  "hovered": {
-                    "value": "#821890",
-                    "type": "color"
-                  },
-                  "pressed": {
-                    "value": "#6F1877",
-                    "type": "color"
-                  }
-                }
-              }
-            },
-            "black": {
-              "foreground": {
-                "default": {
-                  "value": "#344054",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#182230",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#101828",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                },
-                "visited": {
-                  "default": {
-                    "value": "#9F1AB1",
-                    "type": "color"
-                  },
-                  "hovered": {
-                    "value": "#821890",
-                    "type": "color"
-                  },
-                  "pressed": {
-                    "value": "#6F1877",
-                    "type": "color"
-                  }
-                }
-              }
-            },
-            "danger": {
-              "foreground": {
-                "default": {
-                  "value": "#d92d20",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#B42318",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#912018",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                },
-                "visited": {
-                  "default": {
-                    "value": "#9F1AB1",
-                    "type": "color"
-                  },
-                  "hovered": {
-                    "value": "#821890",
-                    "type": "color"
-                  },
-                  "pressed": {
-                    "value": "#6F1877",
-                    "type": "color"
-                  }
-                }
-              }
-            }
-          },
-          "filled": {
-            "primary": {
-              "background": {
-                "default": {
-                  "value": "#CFF9FE",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#A5F0FC",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#67e3f9",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#182230",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            },
-            "danger": {
-              "background": {
-                "default": {
-                  "value": "#FEE4E2",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#FECDCA",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#fca19a",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#d92d20",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            }
-          },
-          "text": {
-            "primary": {
-              "background": {
-                "default": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#cff9fe80",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#a5f0fc80",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#182230",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            },
-            "danger": {
-              "background": {
-                "default": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#fee4e280",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#fecdca80",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#FCFCFD",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "size": {
-      "selectable": {
-        "button": {
-          "height": {
-            "medium": {
-              "value": 40,
-              "type": "sizing"
-            }
-          },
-          "gap": {
-            "medium": {
-              "value": 4,
-              "type": "spacing"
-            }
-          },
-          "padding": {
-            "left-right": {
-              "medium": {
-                "value": 16,
-                "type": "spacing"
-              },
-              "none": {
-                "value": 0,
-                "type": "spacing"
-              }
-            },
-            "top-bottom": {
-              "none": {
-                "value": 0,
-                "type": "spacing"
-              }
-            }
-          }
-        }
-      }
-    },
-    "border-width": {
-      "selectable": {
-        "button": {
-          "outlined": {
-            "default": {
-              "value": 1,
-              "type": "borderWidth"
-            }
-          }
-        }
-      }
-    }
-  },
   "semantic": {
     "color": {
       "foreground": {
@@ -491,7 +67,7 @@
         "brand": {
           "bold": {
             "default": {
-              "value": "#155B75",
+              "value": "#0E7090",
               "type": "color",
               "description": "Utilizado em textos que reinforçam a marca."
             },
@@ -501,9 +77,64 @@
               "description": "Utilizado em textos selecionados ou abertos como tabs  e botões de dropdown."
             }
           }
+        },
+        "link": {
+          "enabled": {
+            "default": {
+              "value": "#004EEB",
+              "type": "color",
+              "description": "Utilizado em links em estado padrão ou hover. Quando o link está hovered uma underline é adicionada."
+            },
+            "hovered": {
+              "value": "#0040C1",
+              "type": "color",
+              "description": "Utilizado em links em estado padrão ou hover. Quando o link está hovered uma underline é adicionada."
+            },
+            "pressed": {
+              "value": "#00359E",
+              "type": "color",
+              "description": "Utilizado em links pressionados."
+            }
+          },
+          "visited": {
+            "default": {
+              "value": "#9F1AB1",
+              "type": "color",
+              "description": "Utilizado em links visitados."
+            },
+            "hovered": {
+              "value": "#821890",
+              "type": "color",
+              "description": "Utilizado em links visitados."
+            },
+            "pressed": {
+              "value": "#6F1877",
+              "type": "color",
+              "description": "Utilizado em links visitados e pressionados."
+            }
+          }
+        },
+        "black": {
+          "default": {
+            "value": "#101828",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "#182230",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "#344054",
+            "type": "color"
+          }
         }
       },
       "border": {
+        "divider": {
+          "value": "#98a2b380",
+          "type": "color",
+          "description": "Utilizado para textos em componentes desativados como botões e input fields."
+        },
         "danger": {
           "bold": {
             "default": {
@@ -549,7 +180,7 @@
           "description": "Utilizado em bordas de elementos de formulário como text fields, checkboxes e radio buttons."
         },
         "disabled": {
-          "value": "#eaecf080",
+          "value": "#66708580",
           "type": "color",
           "description": "Utilizado em bordas de elementos desativados."
         },
@@ -588,40 +219,6 @@
           "description": "Utilizado em anéis exteriores de focus em elementos."
         }
       },
-      "link": {
-        "default": {
-          "value": "#004EEB",
-          "type": "color",
-          "description": "Utilizado em links em estado padrão ou hover. Quando o link está hovered uma underline é adicionada."
-        },
-        "hovered": {
-          "value": "#0040C1",
-          "type": "color",
-          "description": "Utilizado em links em estado padrão ou hover. Quando o link está hovered uma underline é adicionada."
-        },
-        "pressed": {
-          "value": "#00359E",
-          "type": "color",
-          "description": "Utilizado em links pressionados."
-        },
-        "visited": {
-          "default": {
-            "value": "#9F1AB1",
-            "type": "color",
-            "description": "Utilizado em links visitados."
-          },
-          "hovered": {
-            "value": "#821890",
-            "type": "color",
-            "description": "Utilizado em links visitados."
-          },
-          "pressed": {
-            "value": "#6F1877",
-            "type": "color",
-            "description": "Utilizado em links visitados e pressionados."
-          }
-        }
-      },
       "background": {
         "disabled": {
           "value": "#d0d5dd80",
@@ -630,20 +227,22 @@
         },
         "neutral": {
           "subtle": {
-            "default": {
-              "value": "#ffffff00",
-              "type": "color",
-              "description": "Utilizado em fundos de elementos que aparentam não ter cor de fundo por default como text buttons e menu itens."
-            },
-            "hovered": {
-              "value": "#eaecf080",
-              "type": "color",
-              "description": "Utilizado em fundos de elementos hovered que aparentam não ter cor de fundo por default como text buttons e menu itens."
-            },
-            "hovered-copy": {
-              "value": "#d0d5dd80",
-              "type": "color",
-              "description": "Utilizado em fundos de elementos pressed que aparentam não ter cor de fundo por default como text buttons e menu itens."
+            "opacity": {
+              "default": {
+                "value": "#ffffff00",
+                "type": "color",
+                "description": "Utilizado em fundos de elementos que aparentam não ter cor de fundo por default como text buttons e menu itens."
+              },
+              "hovered": {
+                "value": "#eaecf080",
+                "type": "color",
+                "description": "Utilizado em fundos de elementos hovered que aparentam não ter cor de fundo por default como text buttons e menu itens."
+              },
+              "pressed": {
+                "value": "#d0d5dd80",
+                "type": "color",
+                "description": "Utilizado em fundos de elementos pressed que aparentam não ter cor de fundo por default como text buttons e menu itens."
+              }
             }
           },
           "bold": {
@@ -681,21 +280,47 @@
             "description": "Utilizado em fundos de componentes como text fields, checkboxes e radio buttons quando estão em pressed state."
           }
         },
-        "selected": {
-          "default": {
-            "value": "#D1E0FF",
-            "type": "color",
-            "description": "Utilizado como fundo para elementos em estado selecionado como botões de dropdown abertos"
+        "brand": {
+          "subtle": {
+            "default": {
+              "value": "#CFF9FE",
+              "type": "color",
+              "description": "Utilizado como fundo para elementos em estado selecionado como botões de dropdown abertos"
+            },
+            "hovered": {
+              "value": "#A5F0FC",
+              "type": "color",
+              "description": "Utilizado como fundo para elementos em estado selecionado e hovered como botões de dropdown abertos"
+            },
+            "pressed": {
+              "value": "#67e3f9",
+              "type": "color",
+              "description": "Utilizado como fundo para elementos em estado selecionado e pressed como botões de dropdown abertos"
+            },
+            "opacity": {
+              "hovered": {
+                "value": "#cff9fe80",
+                "type": "color"
+              },
+              "hovered-copy": {
+                "value": "#a5f0fc80",
+                "type": "color"
+              }
+            }
           },
-          "hovered": {
-            "value": "#B2CCFF",
-            "type": "color",
-            "description": "Utilizado como fundo para elementos em estado selecionado e hovered como botões de dropdown abertos"
-          },
-          "pressed": {
-            "value": "#84ADFF",
-            "type": "color",
-            "description": "Utilizado como fundo para elementos em estado selecionado e pressed como botões de dropdown abertos"
+          "bold": {
+            "default": {
+              "value": "#22CCEE",
+              "type": "color"
+            },
+            "hovered": {
+              "value": "#06AED4",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "#088AB2",
+              "type": "color"
+            }
           }
         },
         "danger": {
@@ -711,6 +336,16 @@
             "pressed": {
               "value": "#fca19a",
               "type": "color"
+            },
+            "opacity": {
+              "hovered": {
+                "value": "#fee4e280",
+                "type": "color"
+              },
+              "pressed": {
+                "value": "#fecdca80",
+                "type": "color"
+              }
             }
           },
           "bold": {
@@ -848,21 +483,9 @@
             }
           }
         },
-        "brand": {
-          "bold": {
-            "default": {
-              "value": "#22CCEE",
-              "type": "color"
-            },
-            "hovered": {
-              "value": "#06AED4",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "#088AB2",
-              "type": "color"
-            }
-          }
+        "transparent": {
+          "value": "#ffffff00",
+          "type": "color"
         }
       },
       "blanket": {
@@ -875,16 +498,20 @@
     },
     "size": {
       "icon": {
-        "xsmall": {
+        "2xsmall": {
           "value": 12,
           "type": "sizing"
         },
-        "small": {
+        "xsmall": {
           "value": 14,
           "type": "sizing"
         },
-        "medium": {
+        "small": {
           "value": 16,
+          "type": "sizing"
+        },
+        "medium": {
+          "value": 20,
           "type": "sizing"
         },
         "large": {
@@ -901,16 +528,20 @@
         }
       },
       "selectable": {
-        "medium": {
-          "value": 48,
+        "xsmall": {
+          "value": 32,
           "type": "sizing"
         },
         "small": {
+          "value": 36,
+          "type": "sizing"
+        },
+        "medium": {
           "value": 40,
           "type": "sizing"
         },
-        "xsmall": {
-          "value": 32,
+        "large": {
+          "value": 48,
           "type": "sizing"
         }
       },
@@ -1395,6 +1026,14 @@
           "medium": {
             "value": 16,
             "type": "spacing"
+          },
+          "large": {
+            "value": 20,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 24,
+            "type": "spacing"
           }
         },
         "gap": {
@@ -1426,6 +1065,114 @@
           },
           "medium": {
             "value": 12,
+            "type": "spacing"
+          }
+        }
+      },
+      "element": {
+        "padding": {
+          "none": {
+            "value": 0,
+            "type": "spacing"
+          },
+          "2xsmall": {
+            "value": 2,
+            "type": "spacing"
+          },
+          "xsmall": {
+            "value": 4,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 6,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 16,
+            "type": "spacing"
+          }
+        },
+        "gap": {
+          "none": {
+            "value": 0,
+            "type": "spacing"
+          },
+          "2xsmall": {
+            "value": 2,
+            "type": "spacing"
+          },
+          "xsmall": {
+            "value": 4,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 6,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 8,
+            "type": "spacing"
+          }
+        }
+      },
+      "component": {
+        "gap": {
+          "none": {
+            "value": 0,
+            "type": "spacing"
+          },
+          "2xsmall": {
+            "value": 2,
+            "type": "spacing"
+          },
+          "xsmall": {
+            "value": 4,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 6,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 8,
+            "type": "spacing"
+          }
+        },
+        "padding": {
+          "none": {
+            "value": 0,
+            "type": "spacing"
+          },
+          "2xsmall": {
+            "value": 2,
+            "type": "spacing"
+          },
+          "xsmall": {
+            "value": 4,
+            "type": "spacing"
+          },
+          "small": {
+            "value": 6,
+            "type": "spacing"
+          },
+          "medium": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "large": {
+            "value": 12,
+            "type": "spacing"
+          },
+          "xlarge": {
+            "value": 16,
             "type": "spacing"
           }
         }
@@ -1478,12 +1225,39 @@
           "type": "dropShadow"
         },
         "type": "boxShadow"
+      },
+      "black": {
+        "pressed": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 0,
+            "spread": 4,
+            "color": "#98a2b380",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
       }
     },
     "border-radius": {
       "selectable": {
-        "value": 4,
-        "type": "borderRadius"
+        "medium": {
+          "value": 4,
+          "type": "borderRadius"
+        }
+      },
+      "modal": {
+        "medium": {
+          "value": 12,
+          "type": "borderRadius"
+        }
+      }
+    },
+    "border-width": {
+      "default": {
+        "value": 1,
+        "type": "borderWidth"
       }
     }
   },
@@ -2444,8 +2218,8 @@
       "raised": {
         "value": {
           "x": 0,
-          "y": 4,
-          "blur": 4,
+          "y": 2,
+          "blur": 2,
           "spread": 1,
           "color": "#05009b26",
           "type": "dropShadow"
@@ -2674,10 +2448,6 @@
     },
     "1": {
       "value": "semantic",
-      "type": "other"
-    },
-    "2": {
-      "value": "component",
       "type": "other"
     }
   }
