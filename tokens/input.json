@@ -1,560 +1,4 @@
 {
-  "comp": {
-    "color": {
-      "selectable": {
-        "button": {
-          "solid": {
-            "primary": {
-              "background": {
-                "default": {
-                  "value": "#22CCEE",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#06AED4",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#088AB2",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#d0d5dd80",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#182230",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            },
-            "danger": {
-              "background": {
-                "default": {
-                  "value": "#B42318",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#912018",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#7A271A",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#d0d5dd80",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#FCFCFD",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            }
-          },
-          "outlined": {
-            "primary": {
-              "border": {
-                "default": {
-                  "value": "#22CCEE",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#06AED4",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#088AB2",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#0E7090",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              },
-              "background": {
-                "default": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#cff9fe80",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#a5f0fc80",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                }
-              }
-            },
-            "danger": {
-              "background": {
-                "default": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#fee4e280",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#fecdca80",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#d92d20",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              },
-              "border": {
-                "default": {
-                  "value": "#B42318",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#912018",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#7A271A",
-                  "type": "color"
-                }
-              }
-            }
-          },
-          "link": {
-            "default": {
-              "foreground": {
-                "default": {
-                  "value": "#004EEB",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#0040C1",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#00359E",
-                  "type": "color"
-                },
-                "Active": {
-                  "value": "#0E7090",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                },
-                "visited": {
-                  "default": {
-                    "value": "#9F1AB1",
-                    "type": "color"
-                  },
-                  "hovered": {
-                    "value": "#821890",
-                    "type": "color"
-                  },
-                  "pressed": {
-                    "value": "#6F1877",
-                    "type": "color"
-                  }
-                }
-              }
-            },
-            "black": {
-              "foreground": {
-                "default": {
-                  "value": "#344054",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#182230",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#101828",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                },
-                "visited": {
-                  "default": {
-                    "value": "#9F1AB1",
-                    "type": "color"
-                  },
-                  "hovered": {
-                    "value": "#821890",
-                    "type": "color"
-                  },
-                  "pressed": {
-                    "value": "#6F1877",
-                    "type": "color"
-                  }
-                }
-              }
-            },
-            "danger": {
-              "foreground": {
-                "default": {
-                  "value": "#d92d20",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#B42318",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#912018",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                },
-                "visited": {
-                  "default": {
-                    "value": "#9F1AB1",
-                    "type": "color"
-                  },
-                  "hovered": {
-                    "value": "#821890",
-                    "type": "color"
-                  },
-                  "pressed": {
-                    "value": "#6F1877",
-                    "type": "color"
-                  }
-                }
-              }
-            }
-          },
-          "filled": {
-            "primary": {
-              "background": {
-                "default": {
-                  "value": "#CFF9FE",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#A5F0FC",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#67e3f9",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#182230",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            },
-            "danger": {
-              "background": {
-                "default": {
-                  "value": "#FEE4E2",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#FECDCA",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#fca19a",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#d92d20",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            }
-          },
-          "text": {
-            "primary": {
-              "background": {
-                "default": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#cff9fe80",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#a5f0fc80",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#155B75",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            },
-            "danger": {
-              "background": {
-                "default": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#fee4e280",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#fecdca80",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#FCFCFD",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            },
-            "black": {
-              "background": {
-                "default": {
-                  "value": "#ffffff00",
-                  "type": "color"
-                },
-                "hovered": {
-                  "value": "#eaecf080",
-                  "type": "color"
-                },
-                "pressed": {
-                  "value": "#d0d5dd80",
-                  "type": "color"
-                }
-              },
-              "foreground": {
-                "default": {
-                  "value": "#182230",
-                  "type": "color"
-                },
-                "disabled": {
-                  "value": "#66708580",
-                  "type": "color"
-                }
-              }
-            }
-          }
-        },
-        "radio-button": {
-          "primary": {
-            "foreground": {
-              "default": {
-                "value": "#06AED4",
-                "type": "color"
-              },
-              "disabled": {
-                "value": "#66708580",
-                "type": "color"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "#182230",
-                "type": "color"
-              },
-              "selected": {
-                "value": "#06AED4",
-                "type": "color"
-              },
-              "disabled": {
-                "value": "#66708580",
-                "type": "color"
-              }
-            },
-            "background": {
-              "default": {
-                "value": "#ffffff00",
-                "type": "color"
-              },
-              "default-copy": {
-                "value": "#cff9fe80",
-                "type": "color"
-              },
-              "default-copy-copy": {
-                "value": "#a5f0fc80",
-                "type": "color"
-              }
-            }
-          }
-        }
-      },
-      "support": {
-        "stepper": {
-          "foreground": {
-            "text": {
-              "active": {
-                "value": "#0E7090",
-                "type": "color"
-              },
-              "default": {
-                "value": "#344054",
-                "type": "color"
-              }
-            },
-            "line": {
-              "default": {
-                "value": "#98A2B3",
-                "type": "color"
-              },
-              "active": {
-                "value": "#06AED4",
-                "type": "color"
-              }
-            },
-            "border": {
-              "default": {
-                "value": "#D0D5DD",
-                "type": "color"
-              },
-              "active": {
-                "value": "#06AED4",
-                "type": "color"
-              }
-            }
-          },
-          "background": {
-            "default": {
-              "value": "#ffffff00",
-              "type": "color"
-            },
-            "completed": {
-              "value": "#06AED4",
-              "type": "color"
-            }
-          }
-        }
-      }
-    },
-    "size": {
-      "selectable": {
-        "button": {
-          "height": {
-            "medium": {
-              "value": 40,
-              "type": "sizing"
-            }
-          },
-          "gap": {
-            "medium": {
-              "value": 4,
-              "type": "spacing"
-            }
-          },
-          "padding": {
-            "left-right": {
-              "medium": {
-                "value": 16,
-                "type": "spacing"
-              },
-              "none": {
-                "value": 0,
-                "type": "spacing"
-              }
-            },
-            "top-bottom": {
-              "none": {
-                "value": 0,
-                "type": "spacing"
-              }
-            }
-          }
-        }
-      },
-      "support": {
-        "stepper": {
-          "step": {
-            "default": {
-              "value": 8,
-              "type": "sizing"
-            }
-          }
-        }
-      }
-    },
-    "border-width": {
-      "selectable": {
-        "button": {
-          "outlined": {
-            "default": {
-              "value": 1,
-              "type": "borderWidth"
-            }
-          }
-        },
-        "radio-button": {
-          "value": 2,
-          "type": "borderWidth"
-        }
-      }
-    }
-  },
   "semantic": {
     "color": {
       "foreground": {
@@ -1013,41 +457,41 @@
     "size": {
       "icon": {
         "xsmall": {
-          "value": 12,
+          "value": "0.75rem",
           "type": "sizing"
         },
         "small": {
-          "value": 14,
+          "value": "0.875rem",
           "type": "sizing"
         },
         "medium": {
-          "value": 16,
+          "value": "1rem",
           "type": "sizing"
         },
         "large": {
-          "value": 24,
+          "value": "1.5rem",
           "type": "sizing"
         },
         "xlarge": {
-          "value": 32,
+          "value": "2rem",
           "type": "sizing"
         },
         "2xlarge": {
-          "value": 48,
+          "value": "3rem",
           "type": "sizing"
         }
       },
       "selectable": {
         "medium": {
-          "value": 48,
+          "value": "3rem",
           "type": "sizing"
         },
         "small": {
-          "value": 40,
+          "value": "2.5rem",
           "type": "sizing"
         },
         "xsmall": {
-          "value": 32,
+          "value": "2rem",
           "type": "sizing"
         }
       },
@@ -1530,7 +974,7 @@
             "type": "spacing"
           },
           "medium": {
-            "value": 16,
+            "value": "1rem",
             "type": "spacing"
           },
           "large": {
@@ -1548,7 +992,7 @@
             "type": "spacing"
           },
           "medium": {
-            "value": 16,
+            "value": "1rem",
             "type": "spacing"
           }
         }
@@ -1560,7 +1004,7 @@
             "type": "spacing"
           },
           "medium": {
-            "value": 12,
+            "value": "0.75rem",
             "type": "spacing"
           }
         },
@@ -1570,7 +1014,7 @@
             "type": "spacing"
           },
           "medium": {
-            "value": 12,
+            "value": "0.75rem",
             "type": "spacing"
           }
         }
@@ -1582,19 +1026,19 @@
             "type": "spacing"
           },
           "2xsmall": {
-            "value": 2,
+            "value": "0.125rem",
             "type": "spacing"
           },
           "xsmall": {
-            "value": 4,
+            "value": "0.25rem",
             "type": "spacing"
           },
           "small": {
-            "value": 6,
+            "value": "0.375rem",
             "type": "spacing"
           },
           "medium": {
-            "value": 8,
+            "value": "0.5rem",
             "type": "spacing"
           }
         },
@@ -1604,19 +1048,19 @@
             "type": "spacing"
           },
           "2xsmall": {
-            "value": 2,
+            "value": "0.125rem",
             "type": "spacing"
           },
           "xsmall": {
-            "value": 4,
+            "value": "0.25rem",
             "type": "spacing"
           },
           "small": {
-            "value": 6,
+            "value": "0.375rem",
             "type": "spacing"
           },
           "medium": {
-            "value": 8,
+            "value": "0.5rem",
             "type": "spacing"
           }
         }
@@ -1624,37 +1068,37 @@
       "component": {
         "gap": {
           "2xsmall": {
-            "value": 2,
+            "value": "0.125rem",
             "type": "spacing"
           },
           "xsmall": {
-            "value": 4,
+            "value": "0.25rem",
             "type": "spacing"
           },
           "small": {
-            "value": 6,
+            "value": "0.375rem",
             "type": "spacing"
           },
           "medium": {
-            "value": 8,
+            "value": "0.5rem",
             "type": "spacing"
           }
         },
         "padding": {
           "2xsmall": {
-            "value": 2,
+            "value": "0.125rem",
             "type": "spacing"
           },
           "xsmall": {
-            "value": 4,
+            "value": "0.25rem",
             "type": "spacing"
           },
           "small": {
-            "value": 6,
+            "value": "0.375rem",
             "type": "spacing"
           },
           "medium": {
-            "value": 8,
+            "value": "0.5rem",
             "type": "spacing"
           }
         }
@@ -1724,11 +1168,11 @@
     },
     "border-radius": {
       "selectable": {
-        "value": 4,
+        "value": "0.25rem",
         "type": "borderRadius"
       },
       "modal": {
-        "value": 12,
+        "value": "0.75rem",
         "type": "borderRadius"
       }
     },
@@ -2310,146 +1754,146 @@
     },
     "size": {
       "4xsmall": {
-        "value": 2,
+        "value": "0.125rem",
         "type": "sizing"
       },
       "3xsmall": {
-        "value": 4,
+        "value": "0.25rem",
         "type": "sizing"
       },
       "2xsmall": {
-        "value": 8,
+        "value": "0.5rem",
         "type": "sizing"
       },
       "xsmall": {
-        "value": 12,
+        "value": "0.75rem",
         "type": "sizing"
       },
       "small": {
-        "value": 14,
+        "value": "0.875rem",
         "type": "sizing"
       },
       "medium": {
-        "value": 16,
+        "value": "1rem",
         "type": "sizing"
       },
       "large": {
-        "value": 20,
+        "value": "1.25rem",
         "type": "sizing"
       },
       "xlarge": {
-        "value": 24,
+        "value": "1.5rem",
         "type": "sizing"
       },
       "2xlarge": {
-        "value": 28,
+        "value": "1.75rem",
         "type": "sizing"
       },
       "3xlarge": {
-        "value": 32,
+        "value": "2rem",
         "type": "sizing"
       },
       "4xlarge": {
-        "value": 36,
+        "value": "2.25rem",
         "type": "sizing"
       },
       "5xlarge": {
-        "value": 40,
+        "value": "2.5rem",
         "type": "sizing"
       },
       "6xlarge": {
-        "value": 44,
+        "value": "2.75rem",
         "type": "sizing"
       },
       "7xlarge": {
-        "value": 48,
+        "value": "3rem",
         "type": "sizing"
       },
       "8xlarge": {
-        "value": 52,
+        "value": "3.25rem",
         "type": "sizing"
       },
       "9xlarge": {
-        "value": 56,
+        "value": "3.5rem",
         "type": "sizing"
       },
       "10xlarge": {
-        "value": 60,
+        "value": "3.75rem",
         "type": "sizing"
       },
       "11xlarge": {
-        "value": 64,
+        "value": "4rem",
         "type": "sizing"
       },
       "12xlarge": {
-        "value": 68,
+        "value": "4.25rem",
         "type": "sizing"
       },
       "13xlarge": {
-        "value": 72,
+        "value": "4.5rem",
         "type": "sizing"
       },
       "14xlarge": {
-        "value": 76,
+        "value": "4.75rem",
         "type": "sizing"
       },
       "15xlarge": {
-        "value": 80,
+        "value": "5rem",
         "type": "sizing"
       },
       "16xlarge": {
-        "value": 84,
+        "value": "5.25rem",
         "type": "sizing"
       },
       "17xlarge": {
-        "value": 88,
+        "value": "5.5rem",
         "type": "sizing"
       },
       "18xlarge": {
-        "value": 92,
+        "value": "5.75rem",
         "type": "sizing"
       },
       "19xlarge": {
-        "value": 96,
+        "value": "6rem",
         "type": "sizing"
       },
       "20xlarge": {
-        "value": 100,
+        "value": "6.25rem",
         "type": "sizing"
       },
       "scale": {
-        "value": 16,
+        "value": "1rem",
         "type": "sizing"
       }
     },
     "spacing": {
       "2": {
-        "value": 2,
+        "value": "0.125rem",
         "type": "spacing",
         "description": "Usado em peças pequenas e compactas do UI."
       },
       "4": {
-        "value": 4,
+        "value": "0.25rem",
         "type": "spacing",
         "description": "Usado em peças pequenas e compactas do UI."
       },
       "6": {
-        "value": 6,
+        "value": "0.375rem",
         "type": "spacing",
         "description": "Usado em peças pequenas e compactas do UI."
       },
       "8": {
-        "value": 8,
+        "value": "0.5rem",
         "type": "spacing",
         "description": "Usado em peças pequenas e compactas do UI."
       },
       "12": {
-        "value": 12,
+        "value": "0.75rem",
         "type": "spacing",
         "description": "Usado em peças maiores e menos densas do UI."
       },
       "16": {
-        "value": 16,
+        "value": "1rem",
         "type": "spacing",
         "description": "Usado em peças maiores e menos densas do UI."
       },
@@ -2564,43 +2008,43 @@
         "type": "borderRadius"
       },
       "4xsmall": {
-        "value": 2,
+        "value": "0.125rem",
         "type": "borderRadius"
       },
       "3xsmall": {
-        "value": 4,
+        "value": "0.25rem",
         "type": "borderRadius"
       },
       "2xsmall": {
-        "value": 6,
+        "value": "0.375rem",
         "type": "borderRadius"
       },
       "xsmall": {
-        "value": 8,
+        "value": "0.5rem",
         "type": "borderRadius"
       },
       "small": {
-        "value": 12,
+        "value": "0.75rem",
         "type": "borderRadius"
       },
       "medium": {
-        "value": 16,
+        "value": "1rem",
         "type": "borderRadius"
       },
       "large": {
-        "value": 20,
+        "value": "1.25rem",
         "type": "borderRadius"
       },
       "xlarge": {
-        "value": 24,
+        "value": "1.5rem",
         "type": "borderRadius"
       },
       "2xlarge": {
-        "value": 32,
+        "value": "2rem",
         "type": "borderRadius"
       },
       "3xlarge": {
-        "value": 48,
+        "value": "3rem",
         "type": "borderRadius"
       },
       "rounded": {
@@ -2608,7 +2052,7 @@
         "type": "borderRadius"
       },
       "scale": {
-        "value": 16,
+        "value": "1rem",
         "type": "borderRadius"
       }
     },
@@ -2926,10 +2370,6 @@
     },
     "1": {
       "value": "semantic",
-      "type": "other"
-    },
-    "2": {
-      "value": "component",
       "type": "other"
     }
   }
