@@ -20,9 +20,21 @@
           }
         },
         "success": {
-          "value": "#085d3a",
-          "type": "color",
-          "description": "Utilizado em textos que comunicam um resultado favorável como mensagens de sucesso em input fields."
+          "default": {
+            "value": "#067647",
+            "type": "color",
+            "description": "Utilizado em textos que comunicam um resultado favorável como mensagens de sucesso em input fields."
+          },
+          "hovered": {
+            "value": "#085d3a",
+            "type": "color",
+            "description": "Utilizado em textos que comunicam um resultado favorável como mensagens de sucesso em input fields."
+          },
+          "pressed": {
+            "value": "#074d31",
+            "type": "color",
+            "description": "Utilizado em textos que comunicam um resultado favorável como mensagens de sucesso em input fields."
+          }
         },
         "warning": {
           "value": "#93370D",
@@ -119,9 +131,21 @@
           }
         },
         "success": {
-          "value": "#079455",
-          "type": "color",
-          "description": "Utilizado em bordas comunicando um resultado favorável como input fields com textos inseridos corretamente."
+          "default": {
+            "value": "#079455",
+            "type": "color",
+            "description": "Utilizado em bordas comunicando um resultado favorável como input fields com textos inseridos corretamente."
+          },
+          "hovered": {
+            "value": "#067647",
+            "type": "color",
+            "description": "Utilizado em bordas comunicando um resultado favorável como input fields com textos inseridos corretamente."
+          },
+          "pressed": {
+            "value": "#085d3a",
+            "type": "color",
+            "description": "Utilizado em bordas comunicando um resultado favorável como input fields com textos inseridos corretamente."
+          }
         },
         "warning": {
           "value": "#DC6803",
@@ -454,7 +478,7 @@
         "elevation": {
           "surface": {
             "sunken": {
-              "value": "#EAECF0",
+              "value": "#F2F4F7",
               "type": "color"
             },
             "default": {
@@ -575,6 +599,22 @@
           },
           "xlarge": {
             "value": "3.5rem",
+            "type": "sizing"
+          },
+          "2xlarge": {
+            "value": "4rem",
+            "type": "sizing"
+          },
+          "3xlarge": {
+            "value": "4.5rem",
+            "type": "sizing"
+          },
+          "4xlarge": {
+            "value": "5rem",
+            "type": "sizing"
+          },
+          "5xlarge": {
+            "value": "5.5rem",
             "type": "sizing"
           }
         },
@@ -1109,6 +1149,17 @@
             "blur": 0,
             "spread": 4,
             "color": "#22ccee80",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "selected": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 6,
+            "spread": 0,
+            "color": "#00e0fca6",
             "type": "dropShadow"
           },
           "type": "boxShadow"
