@@ -1,17 +1,15 @@
 import StyleDictionary from 'style-dictionary';
 
-// Garante que a função é definida corretamente
+// Função para transformar sombras em formato CSS
 const shadowTransform = {
-  name: 'shadow/css',
-  type: 'value',
-  matcher: (token) => token?.type === 'boxShadow',
-  transformer: (token) => {
-    if (!token.value || typeof token.value !== 'object') return '';
-
-    const { x, y, blur, spread, color } = token.value;
-    return `${x}px ${y}px ${blur}px ${spread}px ${color}`;
-  }
+  name: 'shadow/css',  // Nome do transformador
+  type: 'value',        // Tipo de transformação
+  matcher: (token) => token?.type === 'boxShadow',  // Verifica se o tipo do token é 'boxShadow'
+  transformer: (token) => {  // Função de transformação
+    if (!token.value || typeof token.value !== 'object') return '';  // Verifica se o valor do token é um objeto válido
+    const { x, y, blur, spread, color } = token.value;  // Extração das propriedades da sombra
+    return `${x}px ${y}px ${blur}px ${spread}px ${color}`;  // Retorna o valor no formato CSS
+  },
 };
 
-// Registra a transformação corretamente
 StyleDictionary.registerTransform(shadowTransform);
