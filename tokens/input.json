@@ -888,7 +888,7 @@
               "fontFamily": "Inter",
               "fontWeight": 600,
               "fontSize": "1rem",
-              "lineHeight": "110%",
+              "lineHeight": "150%",
               "letterSpacing": "auto",
               "textDecoration": "none",
               "paragraphSpacing": 0
@@ -914,7 +914,7 @@
               "fontFamily": "Inter",
               "fontWeight": 600,
               "fontSize": "0.875rem",
-              "lineHeight": "130%",
+              "lineHeight": "150%",
               "letterSpacing": "auto",
               "textDecoration": "none",
               "paragraphSpacing": 0
@@ -940,7 +940,7 @@
               "fontFamily": "Inter",
               "fontWeight": 600,
               "fontSize": "0.75rem",
-              "lineHeight": "130%",
+              "lineHeight": "150%",
               "letterSpacing": "auto",
               "textDecoration": "none",
               "paragraphSpacing": 0
