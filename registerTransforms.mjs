@@ -1,11 +1,13 @@
 import StyleDictionary from 'style-dictionary';
 
-// Corrigindo a estrutura da função do transformador
+// Registrando corretamente a transformação para sombras
 StyleDictionary.registerTransform({
   name: 'shadow/css',
   type: 'value',
-  matcher: (token) => token.type === 'boxShadow',
-  transformer: (token) => {
+  matcher: function (token) {
+    return token?.type === 'boxShadow';
+  },
+  transformer: function (token) {
     if (!token.value || typeof token.value !== 'object') return '';
 
     const { x, y, blur, spread, color } = token.value;
