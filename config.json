@@ -5,7 +5,7 @@
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "transforms": ["name/kebab", 'shadow/css']
+      "transforms": ["name/kebab", 'shadow/css'],
       "files": [
         {
           "destination": "css/variables.css",
