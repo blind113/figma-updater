@@ -19,7 +19,7 @@ jobs:
         run: npx token-transformer tokens.json tokens/input.json
 
       - name: Registrar Transformadores Customizados
-        run: node registerTransforms.js
+        run: node registerTransforms.mjs
 
       - name: Construir Tokens com Style Dictionary
         run: npx style-dictionary build --config config.json --verbose
