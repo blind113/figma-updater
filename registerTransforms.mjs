@@ -1,5 +1,6 @@
 import StyleDictionary from 'style-dictionary';
 
+// Corrigindo a estrutura da função do transformador
 StyleDictionary.registerTransform({
   name: 'shadow/css',
   type: 'value',
