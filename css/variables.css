@@ -6,7 +6,9 @@
   --semantic-color-foreground-danger-default: #d92d20;
   --semantic-color-foreground-danger-hovered: #b42318;
   --semantic-color-foreground-danger-pressed: #912018;
-  --semantic-color-foreground-success: #085d3a;
+  --semantic-color-foreground-success-default: #067647;
+  --semantic-color-foreground-success-hovered: #085d3a;
+  --semantic-color-foreground-success-pressed: #074d31;
   --semantic-color-foreground-warning: #93370d;
   --semantic-color-foreground-warning-inverse: #101828;
   --semantic-color-foreground-information: #0040c1;
@@ -24,7 +26,9 @@
   --semantic-color-border-danger-bold-default: #b42318;
   --semantic-color-border-danger-bold-hovered: #912018;
   --semantic-color-border-danger-bold-pressed: #7a271a;
-  --semantic-color-border-success: #079455;
+  --semantic-color-border-success-default: #079455;
+  --semantic-color-border-success-hovered: #067647;
+  --semantic-color-border-success-pressed: #085d3a;
   --semantic-color-border-warning: #dc6803;
   --semantic-color-border-information: #155eef;
   --semantic-color-border-default: rgba(208, 213, 221, 0.5);
@@ -87,7 +91,7 @@
   --semantic-color-background-information-bold-pressed: #004eeb;
   --semantic-color-background-interaction-hovered: rgba(208, 213, 221, 0.5);
   --semantic-color-background-interaction-pressed: rgba(152, 162, 179, 0.5);
-  --semantic-color-background-elevation-surface-sunken: #eaecf0;
+  --semantic-color-background-elevation-surface-sunken: #f2f4f7;
   --semantic-color-background-elevation-surface-default: #fcfcfd;
   --semantic-color-background-elevation-surface-raised: #fcfcfd;
   --semantic-color-background-elevation-surface-overlay: #fcfcfd;
@@ -113,6 +117,10 @@
   --semantic-size-web-selectable-medium: 2.5rem;
   --semantic-size-web-selectable-large: 3rem;
   --semantic-size-web-selectable-xlarge: 3.5rem;
+  --semantic-size-web-selectable-2xlarge: 4rem;
+  --semantic-size-web-selectable-3xlarge: 4.5rem;
+  --semantic-size-web-selectable-4xlarge: 5rem;
+  --semantic-size-web-selectable-5xlarge: 5.5rem;
   --semantic-size-web-breakpoint-mobile: 375;
   --semantic-size-web-breakpoint-tablet: 768;
   --semantic-size-web-breakpoint-tablet-landscape: 1024;
@@ -176,6 +184,7 @@
   --semantic-spacing-component-xlarge: 1rem;
   --semantic-border-focused-space: 0.25rem solid #64000003;
   --semantic-box-shadow-primary-pressed: [object Object];
+  --semantic-box-shadow-primary-selected: [object Object];
   --semantic-box-shadow-danger-pressed: [object Object];
   --semantic-box-shadow-focused: [object Object];
   --semantic-box-shadow-black-pressed: [object Object];
