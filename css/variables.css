@@ -141,11 +141,11 @@
   --semantic-typography-heading-large-bold: 700 1.5rem/110% Inter;
   --semantic-typography-heading-medium-semibold: 600 1.25rem/130% Inter;
   --semantic-typography-heading-medium-bold: 700 1.25rem/130% Inter;
-  --semantic-typography-heading-small-semibold: 600 1rem/110% Inter;
+  --semantic-typography-heading-small-semibold: 600 1rem/150% Inter;
   --semantic-typography-heading-small-bold: 700 1rem/110% Inter;
-  --semantic-typography-heading-xsmall-semibold: 600 0.875rem/130% Inter;
+  --semantic-typography-heading-xsmall-semibold: 600 0.875rem/150% Inter;
   --semantic-typography-heading-xsmall-bold: 700 0.875rem/130% Inter;
-  --semantic-typography-heading-2xsmall-semibold: 600 0.75rem/130% Inter;
+  --semantic-typography-heading-2xsmall-semibold: 600 0.75rem/150% Inter;
   --semantic-typography-heading-2xsmall-bold: 700 0.75rem/130% Inter;
   --semantic-spacing-body-none: 0rem;
   --semantic-spacing-section-none: 0rem;
