@@ -9,11 +9,8 @@ const shadowTransform = {
     if (!token.value || typeof token.value !== 'object') return '';  // Verifica se o valor do token é um objeto válido
     const { x, y, blur, spread, color } = token.value;  // Extração das propriedades da sombra
     return `${x}px ${y}px ${blur}px ${spread}px ${color}`;  // Retorna o valor no formato CSS
-  },
+  }
 };
 
 // Registra o transformador de sombra
-StyleDictionary.registerTransform({
-  ...shadowTransform,
-  transformer: shadowTransform.transformer,  // Garantir que a função transformer seja passada corretamente
-});
+StyleDictionary.registerTransform(shadowTransform);
