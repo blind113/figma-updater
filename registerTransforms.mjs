@@ -12,4 +12,8 @@ const shadowTransform = {
   },
 };
 
-StyleDictionary.registerTransform(shadowTransform);
+// Registra o transformador de sombra
+StyleDictionary.registerTransform({
+  ...shadowTransform,
+  transformer: shadowTransform.transformer,  // Garantir que a função transformer seja passada corretamente
+});
