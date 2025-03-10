@@ -19,9 +19,11 @@
   --semantic-color-foreground-inverse: #fcfcfd;
   --semantic-color-foreground-brand-bold-default: #0e7090;
   --semantic-color-foreground-brand-bold-selected: #06aed4;
-  --semantic-color-foreground-black-default: #101828;
-  --semantic-color-foreground-black-hovered: #182230;
-  --semantic-color-foreground-black-pressed: #344054;
+  --semantic-color-foreground-black-bold-default: #101828;
+  --semantic-color-foreground-black-bold-opacity-default: rgba(12, 17, 29, 0.7);
+  --semantic-color-foreground-black-bold-hovered: #182230;
+  --semantic-color-foreground-black-bold-pressed: #344054;
+  --semantic-color-foreground-price-default: #4ca30d;
   --semantic-color-border-divider: rgba(152, 162, 179, 0.5);
   --semantic-color-border-danger-bold-default: #b42318;
   --semantic-color-border-danger-bold-hovered: #912018;
@@ -246,6 +248,7 @@
   --core-color-carbon-800: #182230;
   --core-color-carbon-900: #101828;
   --core-color-carbon-950: #0c111d;
+  --core-color-carbon-950-a: rgba(12, 17, 29, 0.7);
   --core-color-carbon-100-a: rgba(242, 244, 247, 0.5);
   --core-color-carbon-200-a: rgba(234, 236, 240, 0.5);
   --core-color-carbon-300-a: rgba(208, 213, 221, 0.5);
