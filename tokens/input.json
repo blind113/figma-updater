@@ -91,16 +91,30 @@
           }
         },
         "black": {
+          "bold": {
+            "default": {
+              "value": "#101828",
+              "type": "color"
+            },
+            "opacity": {
+              "default": {
+                "value": "#0c111db3",
+                "type": "color"
+              }
+            },
+            "hovered": {
+              "value": "#182230",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "#344054",
+              "type": "color"
+            }
+          }
+        },
+        "price": {
           "default": {
-            "value": "#101828",
-            "type": "color"
-          },
-          "hovered": {
-            "value": "#182230",
-            "type": "color"
-          },
-          "pressed": {
-            "value": "#344054",
+            "value": "#4CA30D",
             "type": "color"
           }
         }
@@ -1449,6 +1463,10 @@
         },
         "950": {
           "value": "#0C111D",
+          "type": "color"
+        },
+        "950A": {
+          "value": "#0c111db3",
           "type": "color"
         },
         "100A": {
