@@ -1225,11 +1225,19 @@
       "modal": {
         "value": "0.75rem",
         "type": "borderRadius"
+      },
+      "pill": {
+        "value": "6.5rem",
+        "type": "borderRadius"
       }
     },
     "border-width": {
       "default": {
         "value": "0.063rem",
+        "type": "borderWidth"
+      },
+      "large": {
+        "value": "0.125rem",
         "type": "borderWidth"
       }
     }
@@ -1872,15 +1880,28 @@
         "type": "boxShadow"
       },
       "overlay": {
-        "value": {
-          "x": 0,
-          "y": 8,
-          "blur": 12,
-          "spread": -3,
-          "color": "#05009b40",
-          "type": "dropShadow"
+        "bottom": {
+          "value": {
+            "x": 0,
+            "y": 8,
+            "blur": 12,
+            "spread": -3,
+            "color": "#05009b40",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         },
-        "type": "boxShadow"
+        "top": {
+          "value": {
+            "x": 0,
+            "y": -8,
+            "blur": 12,
+            "spread": -3,
+            "color": "#05009b40",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
       },
       "overflow": {
         "top": {

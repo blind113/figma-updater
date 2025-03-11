@@ -192,7 +192,9 @@
   --semantic-box-shadow-black-pressed: [object Object];
   --semantic-border-radius-selectable: 0.25rem;
   --semantic-border-radius-modal: 0.75rem;
+  --semantic-border-radius-pill: 6.5rem;
   --semantic-border-width-default: 0.063rem;
+  --semantic-border-width-large: 0.125rem;
   --core-color-green-25: #f6fef9;
   --core-color-green-50: #ecfdf3;
   --core-color-green-100: #dcfae6;
@@ -343,7 +345,8 @@
   --core-opacity-solid: 1;
   --core-opacity-transparent: 0;
   --core-box-shadow-raised: [object Object];
-  --core-box-shadow-overlay: [object Object];
+  --core-box-shadow-overlay-bottom: [object Object];
+  --core-box-shadow-overlay-top: [object Object];
   --core-box-shadow-overflow-top: [object Object];
   --core-box-shadow-overflow-bottom: [object Object];
   --core-box-shadow-overflow-right: [object Object];
