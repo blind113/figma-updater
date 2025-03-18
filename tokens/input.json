@@ -219,6 +219,20 @@
           "value": "#22CCEE",
           "type": "color",
           "description": "Utilizado em anéis exteriores de focus em elementos."
+        },
+        "black": {
+          "default": {
+            "value": "#182230",
+            "type": "color"
+          },
+          "hovered": {
+            "value": "#101828",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "#0C111D",
+            "type": "color"
+          }
         }
       },
       "link": {
@@ -595,6 +609,22 @@
           }
         },
         "selectable": {
+          "5xsmall": {
+            "value": "1rem",
+            "type": "sizing"
+          },
+          "4xsmall": {
+            "value": "1.25rem",
+            "type": "sizing"
+          },
+          "3xsmall": {
+            "value": "1.5rem",
+            "type": "sizing"
+          },
+          "2xsmall": {
+            "value": "1.75rem",
+            "type": "sizing"
+          },
           "xsmall": {
             "value": "2rem",
             "type": "sizing"
@@ -1229,6 +1259,12 @@
       "pill": {
         "value": "6.5rem",
         "type": "borderRadius"
+      },
+      "component": {
+        "medium": {
+          "value": "0.25rem",
+          "type": "borderRadius"
+        }
       }
     },
     "border-width": {

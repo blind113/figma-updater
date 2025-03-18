@@ -42,6 +42,9 @@
   --semantic-color-border-brand-bold-pressed: #088ab2;
   --semantic-color-border-brand-bold-selected: #22ccee;
   --semantic-color-border-focused: #22ccee;
+  --semantic-color-border-black-default: #182230;
+  --semantic-color-border-black-hovered: #101828;
+  --semantic-color-border-black-pressed: #0c111d;
   --semantic-color-link-default: #004eeb;
   --semantic-color-link-hovered: #0040c1;
   --semantic-color-link-pressed: #00359e;
@@ -114,6 +117,10 @@
   --semantic-size-web-icon-large: 1.25rem;
   --semantic-size-web-icon-xlarge: 1.5rem;
   --semantic-size-web-icon-2xlarge: 2rem;
+  --semantic-size-web-selectable-5xsmall: 1rem;
+  --semantic-size-web-selectable-4xsmall: 1.25rem;
+  --semantic-size-web-selectable-3xsmall: 1.5rem;
+  --semantic-size-web-selectable-2xsmall: 1.75rem;
   --semantic-size-web-selectable-xsmall: 2rem;
   --semantic-size-web-selectable-small: 2.25rem;
   --semantic-size-web-selectable-medium: 2.5rem;
@@ -193,6 +200,7 @@
   --semantic-border-radius-selectable: 0.25rem;
   --semantic-border-radius-modal: 0.75rem;
   --semantic-border-radius-pill: 6.5rem;
+  --semantic-border-radius-component-medium: 0.25rem;
   --semantic-border-width-default: 0.063rem;
   --semantic-border-width-large: 0.125rem;
   --core-color-green-25: #f6fef9;
