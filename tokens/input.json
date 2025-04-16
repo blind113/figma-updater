@@ -72,9 +72,21 @@
           "description": "Utilizado para textos em componentes desativados como botões e input fields."
         },
         "inverse": {
-          "value": "#FCFCFD",
-          "type": "color",
-          "description": "Utilizado em textos com fundos fortes."
+          "default": {
+            "value": "#FCFCFD",
+            "type": "color",
+            "description": "Utilizado em textos com fundos fortes."
+          },
+          "hovered": {
+            "value": "#F9FAFB",
+            "type": "color",
+            "description": "Utilizado em textos com fundos fortes."
+          },
+          "pressed": {
+            "value": "#F2F4F7",
+            "type": "color",
+            "description": "Utilizado em textos com fundos fortes."
+          }
         },
         "brand": {
           "bold": {
@@ -344,17 +356,17 @@
         },
         "selected": {
           "default": {
-            "value": "#D1E0FF",
+            "value": "#ECFDFF",
             "type": "color",
             "description": "Utilizado como fundo para elementos em estado selecionado como botões de dropdown abertos"
           },
           "hovered": {
-            "value": "#B2CCFF",
+            "value": "#CFF9FE",
             "type": "color",
             "description": "Utilizado como fundo para elementos em estado selecionado e hovered como botões de dropdown abertos"
           },
           "pressed": {
-            "value": "#84ADFF",
+            "value": "#A5F0FC",
             "type": "color",
             "description": "Utilizado como fundo para elementos em estado selecionado e pressed como botões de dropdown abertos"
           }
@@ -697,351 +709,35 @@
             "value": 12,
             "type": "sizing"
           }
-        }
-      }
-    },
-    "typography": {
-      "body": {
-        "large": {
-          "regular": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 400,
-              "fontSize": "1rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.5
-            },
-            "type": "typography",
-            "description": "Para textos longos como em páginas de blog."
+        },
+        "typography": {
+          "3xlarge": {
+            "value": "2rem",
+            "type": "sizing"
+          },
+          "2xlarge": {
+            "value": "1.75rem",
+            "type": "sizing"
+          },
+          "xlarge": {
+            "value": "1.5rem",
+            "type": "sizing"
+          },
+          "large": {
+            "value": "1.25rem",
+            "type": "sizing"
           },
           "medium": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 500,
-              "fontSize": "1rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.5
-            },
-            "type": "typography",
-            "description": "Para textos longos como em páginas de blog."
+            "value": "1rem",
+            "type": "sizing"
           },
-          "semibold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 600,
-              "fontSize": "1rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.5
-            },
-            "type": "typography",
-            "description": "Para textos longos como em páginas de blog."
+          "small": {
+            "value": "0.875rem",
+            "type": "sizing"
           },
-          "bold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 700,
-              "fontSize": "1rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.5
-            },
-            "type": "typography",
-            "description": "Para textos longos como em páginas de blog."
-          }
-        },
-        "medium": {
-          "regular": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 400,
-              "fontSize": "0.875rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.25
-            },
-            "type": "typography",
-            "description": "Utilizado em descrições pequenas e label. É o tamanho padrão de texto em componentes."
-          },
-          "medium": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 500,
-              "fontSize": "0.875rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.25
-            },
-            "type": "typography",
-            "description": "Utilizado em descrições pequenas e label. É o tamanho padrão de texto em componentes."
-          },
-          "semibold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 600,
-              "fontSize": "0.875rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.25
-            },
-            "type": "typography",
-            "description": "Utilizado em descrições pequenas e label. É o tamanho padrão de texto em componentes."
-          },
-          "bold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 700,
-              "fontSize": "0.875rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.25
-            },
-            "type": "typography",
-            "description": "Utilizado em descrições pequenas e label. É o tamanho padrão de texto em componentes."
-          }
-        },
-        "small": {
-          "regular": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 400,
-              "fontSize": "0.75rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.25
-            },
-            "type": "typography"
-          },
-          "medium": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 500,
-              "fontSize": "0.75rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.25
-            },
-            "type": "typography"
-          },
-          "semibold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 600,
-              "fontSize": "0.75rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.25
-            },
-            "type": "typography"
-          },
-          "bold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 700,
-              "fontSize": "0.75rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0.25
-            },
-            "type": "typography"
-          }
-        }
-      },
-      "heading": {
-        "2xlarge": {
-          "semibold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 600,
-              "fontSize": "2rem",
-              "lineHeight": "100%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          },
-          "bold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 700,
-              "fontSize": "2rem",
-              "lineHeight": "100%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          }
-        },
-        "xlarge": {
-          "semibold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 600,
-              "fontSize": "1.75rem",
-              "lineHeight": "100%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          },
-          "bold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 700,
-              "fontSize": "1.75rem",
-              "lineHeight": "100%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          }
-        },
-        "large": {
-          "semibold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 600,
-              "fontSize": "1.5rem",
-              "lineHeight": "110%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          },
-          "bold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 700,
-              "fontSize": "1.5rem",
-              "lineHeight": "110%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          }
-        },
-        "medium": {
-          "semibold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 600,
-              "fontSize": "1.25rem",
-              "lineHeight": "130%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          },
-          "bold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 700,
-              "fontSize": "1.25rem",
-              "lineHeight": "130%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          }
-        },
-        "small": {
-          "semibold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 600,
-              "fontSize": "1rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          },
-          "bold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 700,
-              "fontSize": "1rem",
-              "lineHeight": "110%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          }
-        },
-        "xsmall": {
-          "semibold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 600,
-              "fontSize": "0.875rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          },
-          "bold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 700,
-              "fontSize": "0.875rem",
-              "lineHeight": "130%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          }
-        },
-        "2xsmall": {
-          "semibold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 600,
-              "fontSize": "0.75rem",
-              "lineHeight": "150%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
-          },
-          "bold": {
-            "value": {
-              "fontFamily": "Inter",
-              "fontWeight": 700,
-              "fontSize": "0.75rem",
-              "lineHeight": "130%",
-              "letterSpacing": "auto",
-              "textDecoration": "none",
-              "paragraphSpacing": 0
-            },
-            "type": "typography"
+          "xsmall": {
+            "value": "0.75rem",
+            "type": "sizing"
           }
         }
       }
@@ -1058,11 +754,31 @@
           "value": "0rem",
           "type": "spacing"
         },
+        "small": {
+          "value": "1rem",
+          "type": "spacing"
+        },
         "medium": {
           "value": "1.5rem",
           "type": "spacing"
         },
-        "margin": {
+        "large": {
+          "value": "2rem",
+          "type": "spacing"
+        },
+        "xlarge": {
+          "value": "2.5rem",
+          "type": "spacing"
+        },
+        "2xlarge": {
+          "value": "3rem",
+          "type": "spacing"
+        },
+        "3xlarge": {
+          "value": "3.5rem",
+          "type": "spacing"
+        },
+        "4xlarge": {
           "value": "4rem",
           "type": "spacing"
         }
@@ -1090,6 +806,10 @@
       "wrapper": {
         "medium": {
           "value": "1.5rem",
+          "type": "spacing"
+        },
+        "none": {
+          "value": "0rem",
           "type": "spacing"
         }
       },
@@ -1156,6 +876,20 @@
           "value": "0.25rem",
           "type": "spacing"
         },
+        "negative": {
+          "xsmall": {
+            "value": "-0.25rem",
+            "type": "spacing"
+          },
+          "small": {
+            "value": "-0.375rem",
+            "type": "spacing"
+          },
+          "medium": {
+            "value": "-0.5rem",
+            "type": "spacing"
+          }
+        },
         "small": {
           "value": "0.375rem",
           "type": "spacing"
@@ -1170,6 +904,18 @@
         },
         "xlarge": {
           "value": "1rem",
+          "type": "spacing"
+        },
+        "2xlarge": {
+          "value": "1.25rem",
+          "type": "spacing"
+        },
+        "3xlarge": {
+          "value": "1.5rem",
+          "type": "spacing"
+        },
+        "4xlarge": {
+          "value": "2rem",
           "type": "spacing"
         }
       }
@@ -1241,6 +987,32 @@
             "blur": 0,
             "spread": 4,
             "color": "#98a2b380",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "warning": {
+        "pressed": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 0,
+            "spread": 4,
+            "color": "#dc680380",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "success": {
+        "pressed": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 0,
+            "spread": 4,
+            "color": "#07945580",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -1327,6 +1099,10 @@
         },
         "950": {
           "value": "#053321",
+          "type": "color"
+        },
+        "600A": {
+          "value": "#07945580",
           "type": "color"
         }
       },
@@ -1647,6 +1423,10 @@
         },
         "950": {
           "value": "#4E1D09",
+          "type": "color"
+        },
+        "600A": {
+          "value": "#dc680380",
           "type": "color"
         }
       },
@@ -2014,56 +1794,6 @@
         "description": "Utilizado para enfatizar textos."
       }
     },
-    "font-size": {
-      "scale": {
-        "value": "1rem",
-        "type": "fontSizes"
-      },
-      "xsmall": {
-        "value": "0.75rem",
-        "type": "fontSizes"
-      },
-      "small": {
-        "value": "0.875rem",
-        "type": "fontSizes"
-      },
-      "medium": {
-        "value": "1rem",
-        "type": "fontSizes"
-      },
-      "large": {
-        "value": "1.25rem",
-        "type": "fontSizes"
-      },
-      "xlarge": {
-        "value": "1.5rem",
-        "type": "fontSizes"
-      },
-      "2xlarge": {
-        "value": "1.75rem",
-        "type": "fontSizes"
-      },
-      "3xlarge": {
-        "value": "2rem",
-        "type": "fontSizes"
-      },
-      "4xlarge": {
-        "value": "2.5rem",
-        "type": "fontSizes"
-      },
-      "5xlarge": {
-        "value": "3rem",
-        "type": "fontSizes"
-      },
-      "6xlarge": {
-        "value": "3.5rem",
-        "type": "fontSizes"
-      },
-      "7xlarge": {
-        "value": "4rem",
-        "type": "fontSizes"
-      }
-    },
     "line-height": {
       "xsmall": {
         "value": "100%",
@@ -2080,12 +1810,6 @@
       "large": {
         "value": "150%",
         "type": "lineHeights"
-      }
-    },
-    "letter-spacing": {
-      "auto": {
-        "value": "auto",
-        "type": "letterSpacing"
       }
     },
     "text-decoration": {
@@ -2289,6 +2013,20 @@
         "value": "6.5rem",
         "type": "dimension",
         "description": "16px"
+      },
+      "negative": {
+        "4": {
+          "value": "-0.25rem",
+          "type": "dimension"
+        },
+        "6": {
+          "value": "-0.375rem",
+          "type": "dimension"
+        },
+        "8": {
+          "value": "-0.5rem",
+          "type": "dimension"
+        }
       },
       "scale": {
         "value": 1,
