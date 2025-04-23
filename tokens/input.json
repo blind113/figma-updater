@@ -622,55 +622,55 @@
         },
         "selectable": {
           "5xsmall": {
-            "value": "1rem",
-            "type": "sizing"
-          },
-          "4xsmall": {
             "value": "1.25rem",
             "type": "sizing"
           },
-          "3xsmall": {
+          "4xsmall": {
             "value": "1.5rem",
             "type": "sizing"
           },
-          "2xsmall": {
+          "3xsmall": {
             "value": "1.75rem",
             "type": "sizing"
           },
-          "xsmall": {
+          "2xsmall": {
             "value": "2rem",
             "type": "sizing"
           },
-          "small": {
+          "xsmall": {
             "value": "2.25rem",
             "type": "sizing"
           },
-          "medium": {
+          "small": {
             "value": "2.5rem",
             "type": "sizing"
           },
-          "large": {
+          "medium": {
             "value": "3rem",
             "type": "sizing"
           },
-          "xlarge": {
+          "large": {
             "value": "3.5rem",
             "type": "sizing"
           },
-          "2xlarge": {
+          "xlarge": {
             "value": "4rem",
             "type": "sizing"
           },
-          "3xlarge": {
+          "2xlarge": {
             "value": "4.5rem",
             "type": "sizing"
           },
-          "4xlarge": {
+          "3xlarge": {
             "value": "5rem",
             "type": "sizing"
           },
-          "5xlarge": {
+          "4xlarge": {
             "value": "5.5rem",
+            "type": "sizing"
+          },
+          "5xlarge": {
+            "value": "6rem",
             "type": "sizing"
           }
         },
@@ -829,6 +829,10 @@
         "xlarge": {
           "value": "1.5rem",
           "type": "spacing"
+        },
+        "2xlarge": {
+          "value": "2rem",
+          "type": "spacing"
         }
       },
       "group": {
@@ -916,6 +920,12 @@
         },
         "4xlarge": {
           "value": "2rem",
+          "type": "spacing"
+        }
+      },
+      "text": {
+        "medium": {
+          "value": "0.75rem",
           "type": "spacing"
         }
       }
