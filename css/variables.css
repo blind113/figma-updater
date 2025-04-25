@@ -198,6 +198,11 @@
   --semantic-box-shadow-success-pressed: [object Object];
   --semantic-border-radius-selectable: 0.25rem;
   --semantic-border-radius-modal: 0.75rem;
+  --semantic-border-radius-xlarge: 1.5rem;
+  --semantic-border-radius-large: 1rem;
+  --semantic-border-radius-medium: 0.75rem;
+  --semantic-border-radius-small: 0.5rem;
+  --semantic-border-radius-xsmall: 0.25rem;
   --semantic-border-radius-pill: 6.5rem;
   --semantic-border-radius-component-medium: 0.25rem;
   --semantic-border-width-default: 0.063rem;
