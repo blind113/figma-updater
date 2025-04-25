@@ -1038,6 +1038,26 @@
         "value": "0.75rem",
         "type": "borderRadius"
       },
+      "xlarge": {
+        "value": "1.5rem",
+        "type": "borderRadius"
+      },
+      "large": {
+        "value": "1rem",
+        "type": "borderRadius"
+      },
+      "medium": {
+        "value": "0.75rem",
+        "type": "borderRadius"
+      },
+      "small": {
+        "value": "0.5rem",
+        "type": "borderRadius"
+      },
+      "xsmall": {
+        "value": "0.25rem",
+        "type": "borderRadius"
+      },
       "pill": {
         "value": "6.5rem",
         "type": "borderRadius"
