@@ -1031,7 +1031,7 @@
     },
     "border-radius": {
       "selectable": {
-        "value": "0.25rem",
+        "value": "6.5rem",
         "type": "borderRadius"
       },
       "modal": {
