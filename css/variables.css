@@ -54,6 +54,9 @@
   --semantic-color-link-visited-hovered: #821890;
   --semantic-color-link-visited-pressed: #6f1877;
   --semantic-color-background-disabled: rgba(208, 213, 221, 0.5);
+  --semantic-color-background-inverse-default: #f2f4f7;
+  --semantic-color-background-inverse-hovered: #f9fafb;
+  --semantic-color-background-inverse-pressed: #fcfcfd;
   --semantic-color-background-black-subtle-default: #f2f4f7;
   --semantic-color-background-black-subtle-hovered: #eaecf0;
   --semantic-color-background-black-subtle-hovered-copy: #d0d5dd;
@@ -194,6 +197,7 @@
   --semantic-box-shadow-danger-pressed: [object Object];
   --semantic-box-shadow-focused: [object Object];
   --semantic-box-shadow-black-pressed: [object Object];
+  --semantic-box-shadow-inverse-pressed: [object Object];
   --semantic-box-shadow-warning-pressed: [object Object];
   --semantic-box-shadow-success-pressed: [object Object];
   --semantic-border-radius-selectable: 6.5rem;
@@ -263,6 +267,7 @@
   --core-color-carbon-800: #182230;
   --core-color-carbon-900: #101828;
   --core-color-carbon-950: #0c111d;
+  --core-color-carbon-25-a: rgba(252, 252, 253, 0.5);
   --core-color-carbon-950-a: rgba(12, 17, 29, 0.7);
   --core-color-carbon-100-a: rgba(242, 244, 247, 0.5);
   --core-color-carbon-200-a: rgba(234, 236, 240, 0.5);
