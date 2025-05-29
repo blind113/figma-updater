@@ -287,6 +287,23 @@
           "type": "color",
           "description": "Utilizado em fundos de componentes desativados."
         },
+        "inverse": {
+          "default": {
+            "value": "#F2F4F7",
+            "type": "color",
+            "description": "Utilizado em fundos de componentes desativados."
+          },
+          "hovered": {
+            "value": "#F9FAFB",
+            "type": "color",
+            "description": "Utilizado em fundos de componentes desativados."
+          },
+          "pressed": {
+            "value": "#FCFCFD",
+            "type": "color",
+            "description": "Utilizado em fundos de componentes desativados."
+          }
+        },
         "black": {
           "subtle": {
             "default": {
@@ -1002,6 +1019,19 @@
           "type": "boxShadow"
         }
       },
+      "inverse": {
+        "pressed": {
+          "value": {
+            "x": 0,
+            "y": 0,
+            "blur": 0,
+            "spread": 4,
+            "color": "#fcfcfd80",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
       "warning": {
         "pressed": {
           "value": {
@@ -1313,6 +1343,10 @@
         },
         "950": {
           "value": "#0C111D",
+          "type": "color"
+        },
+        "25A": {
+          "value": "#fcfcfd80",
           "type": "color"
         },
         "950A": {
